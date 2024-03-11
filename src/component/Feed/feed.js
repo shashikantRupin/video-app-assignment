@@ -50,7 +50,7 @@ function Feed() {
           ))
         )}
       </div>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-2">
         {/* "Previous" button */}
         <button
           className={`mx-1 my-1 px-2 py-1 rounded-full border border-white text-white hover:bg-white hover:text-black transition duration-300 ease-in-out ${

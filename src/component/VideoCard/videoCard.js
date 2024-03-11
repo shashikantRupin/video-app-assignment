@@ -35,7 +35,7 @@ const VideoCard = ({ video, currentPage }) => {
 
   return (
     <Link to={`/video/${video?.postId}?page=${currentPage}`}>
-      <div className="flex flex-col mb-8 bg-gray-900 bg-opacity-90 text-white">
+      <div className="flex flex-col mb-2 bg-gray-900 bg-opacity-90 text-white">
         <div className="relative h-48 md:h-40 md:rounded-xl overflow-hidden flex items-center justify-center">
           {video?.submission?.thumbnail && (
             <img

@@ -80,16 +80,19 @@ const VideoCard = ({ video, currentPage }) => {
 
             <div className="flex mt-2">
               <div
-                className="flex text-[14px] font-bold text-white/[0.9] truncate overflow-hidden p-2 cursor-pointer border-2 border-white rounded-md hover:bg-white hover:text-black transition duration-300"
+                className="flex text-[14px] font-bold text-white/[0.9] truncate overflow-hidden p-2 cursor-pointer  rounded-md hover:bg-white hover:text-black transition duration-300"
                 onClick={handleComment}
               >
-                <span>{`${commentCount} 💬 comments`}</span>
+                <span className="text-xl pr-2">{`${commentCount} 💬 comments`}</span>
               </div>
               <div
-                className="flex ml-2 text-[14px] font-bold text-white/[0.9] truncate overflow-hidden p-2 cursor-pointer border-2 border-white rounded-md hover:bg-white hover:text-black transition duration-300"
+                className="flex ml-2 text-[14px] font-bold text-white/[0.9] truncate overflow-hidden p-2 cursor-pointer  rounded-md hover:bg-white hover:text-black transition duration-300"
                 onClick={handleLike}
               >
-                <span>{`${likeCount} ${isLiked ? "❤️" : "👍"} likes`}</span>
+                <span className="text-2xl pr-1">{`${likeCount} ${
+                  isLiked ? "❤️" : "👍"
+                }`}</span>
+                <span className="hidden md:inline-block">{`likes`}</span>
               </div>
             </div>
           </div>

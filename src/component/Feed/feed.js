@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import VideoCard from "../VideoCard/videoCard";
+import "./feed.css"
 
 function Feed() {
   const [videos, setVideos] = useState([]);
@@ -35,7 +36,7 @@ function Feed() {
   };
 
   return (
-    <div className="flex-grow h-full overflow-y-auto bg-gray-900 bg-opacity-90">
+    <div className="flex-grow h-full overflow-y-auto bg-opacity-90 bg-1">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-5 ">
         {!videos.length ? (
           <p>Loading...</p>

@@ -12,7 +12,7 @@ function App() {
   };
   return (
     <Router>
-      <div className="App">
+      <div className="App shadow-lg">
         <header className="header">
           <Link to="/" className="logo-link">
             <img

@@ -12,8 +12,8 @@ function App() {
   };
   return (
     <Router>
-      <div className="App shadow-lg">
-        <header className="header">
+      <div className="App ">
+        <header className="header shadow-lg">
           <Link to="/" className="logo-link">
             <img
               src={logoImage}

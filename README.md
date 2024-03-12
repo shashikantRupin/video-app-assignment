@@ -1,6 +1,6 @@
 # Video Player App
 
-![Video Player Screenshot](./videoImg.png)
+![Video Player Screenshot](./VideoImg.png)
 
 Welcome to the official repository of your Video Player App. This React application provides a seamless video playback experience, enhanced with Tailwind CSS for styling and JavaScript for interactivity.
 
@@ -28,3 +28,7 @@ To start the development server and run the application, follow these steps:
 
    ```bash
    npm install
+2. Install dependencies:
+
+   ```bash
+   npm run start

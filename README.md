@@ -28,7 +28,7 @@ To start the development server and run the application, follow these steps:
 
    ```bash
    npm install
-2. Install dependencies:
+2. Start react-app:
 
    ```bash
    npm run start
